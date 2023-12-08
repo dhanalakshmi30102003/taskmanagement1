@@ -1,0 +1,76 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color:#F8B195;
+  }
+  .topic{
+    text-shadow: 2px 2px 4px black;
+  }
+  .form{
+    padding-left: 30px;
+    text-align: center;
+  }
+  .dead{
+    padding-left: 30px;
+    text-align: center;
+  }
+  .add{
+    padding-left: 200px;
+    text-align: 30px;
+  }
+  
+  .app {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+  
+  }
+  
+  .task-list {
+    margin-top: 20px;
+    
+  }
+  
+  .task {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .task.green {
+    background-color: #19d632; /* Green */
+  }
+  
+  .task.red {
+    background-color: #dd1515; /* Red */
+  }
+  
+  .task.grey {
+    background-color: #3a3939; /* Grey */
+  }
+  
+  .add-task {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #d31818;
+  }
+  
